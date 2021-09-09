@@ -301,12 +301,12 @@ def make_connection(db_name):
 
     if db_name == 'dwhcor':
         user = 'FRUSTAMOV'
-        passw = 'dfg45ydrfg'
+        passw = 'sdf&8sd'
     else:
         user = 'error'
         passw = 'error'
     if db_name == 'dwhcor':
-        ip = '192.123.123.35'
+        ip = '123.123.123.123'
         port = 1111
         service_name = 'DWHCOR.primary.prod.db.goodcompany'
         dsn = cx_Oracle.makedsn(ip, port, service_name=service_name)
